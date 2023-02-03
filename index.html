@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBKART.in</title>
+    <link rel="icon" href="img/logo5.png" style="width:fit-content height:auto">
+    <!--link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--box icons-->
+    <link  href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <!-- <a href="#" class="logo">Ecommerce</a> -->
+            <a href="http://www.amazon.in"><img title="Direct to amazon.in" src="img/logo4.png" style="height: 120px ;width: 120px;"></a>
+            <h2><u>Shop Products</u></h2>
+            <!--cart icons-->
+            <i title="Your Cart" class='bx bxs-shopping-bag hover' id="cart-icon"></i>
+            <!-- cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- content -->
+                <div class="cart-content">
+                    
+                </div>
+                <!-- total -->
+                <div class="total">
+                    <div class="total-price">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- buy button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- cart close -->
+                <i class='bx bx-x' id="close-cart" ></i>
+            </div>
+        </div>
+    </header>
+    <!-- shop -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <!-- content -->
+        <div class="shop-content">
+            <!-- box 1 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/dp/B09XBBTH9S/ref=s9_acsd_al_bw_c2_x_1_i?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-6&pf_rd_r=E3B46D6AMZX0YBGZ7Y9K&pf_rd_t=101&pf_rd_p=1d880ea1-2308-4916-9612-f48d5f6de716&pf_rd_i=20303904031&th=1"><img src="img/p1.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Xiaomi 12 Pro | 5G (Couture Blue, 8GB RAM, 256GB Storage)</h2>
+                <span class="price">$55000</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 2 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/OnePlus-Forest-Green-Storage-SuperVOOC/dp/B09WRMNJ9G/ref=lp_27013055031_1_1"><img src="img/p2.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">OnePlus 10R 5G (Forest Green, 8GB RAM, 128GB Storage, 80W SuperVOOC)</h2>
+                <span class="price">$34999</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 3 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Samsung-DM-Placeholder-9/dp/B0BT9CXXXX?ref_=ast_sto_dp"><img src="img/p3.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Samsung Galaxy S23 Ultra 5G (Green, 12GB, 256GB Storage)</h2>
+                <span class="price">$124999</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 4 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Apple-iPhone-Pro-256GB-Gold/dp/B0BDK63WMS?ref_=ast_sto_dp&th=1&psc=1"><img src="img/p4.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Apple iPhone 14 Pro Max 1TB Gold</h2>
+                <span class="price">$189900</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 5 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/JBL-T460BT-Extra-Wireless-Headphones/dp/B077T4737M/ref=sr_1_18?pf_rd_i=1388921031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=89104875-3b1e-4fee-bae9-fe896a0672ac&pf_rd_r=AMX9RB00XBBHJ57KYYF4&pf_rd_s=merchandised-search-19&pf_rd_t=101&qid=1675342378&refinements=p_72%3A1318477031%2Cp_85%3A10440599031%2Cp_89%3AJBL&rps=1&s=electronics&sr=1-18"><img src="img/p5.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">JBL T460BT by Harman, Wireless On Ear Headphones</h2>
+                <span class="price">$2600</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 6 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Rockerz-370-Headphone-Bluetooth-Lightweight/dp/B0856HNMR7/ref=sr_1_16?pf_rd_i=1388921031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=89104875-3b1e-4fee-bae9-fe896a0672ac&pf_rd_r=AMX9RB00XBBHJ57KYYF4&pf_rd_s=merchandised-search-19&pf_rd_t=101&qid=1675342506&refinements=p_72%3A1318477031%2Cp_85%3A10440599031%2Cp_89%3ABoat&rps=1&s=electronics&sr=1-16"><img src="img/p6.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">boAt Rockerz 370 On Ear Bluetooth Headphones</h2>
+                <span class="price">$999</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 7 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Noise-Bluetooth-Wireless-30-Hours-Instacharge/dp/B09Y5MK1KB/ref=sr_1_6?pf_rd_i=1388921031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=bdc8b559-4f5e-45c7-80ef-9efa02863270&pf_rd_r=WV415KXT87CFHG9D3XG0&pf_rd_s=merchandised-search-3&qid=1675342667&refinements=p_72%3A1318477031%2Cp_85%3A10440599031%2Cp_89%3ANoise&rps=1&s=electronics&sr=1-6&th=1"><img src="img/p7.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Noise Buds Vs104 Bluetooth Truly Wireless Earbuds </h2>
+                <span class="price">$1299</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 8 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Oneplus-Bluetooth-Wireless-Earphones-Bombastic/dp/B09TVVGXWS/ref=sr_1_1?pf_rd_i=1388921031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=89104875-3b1e-4fee-bae9-fe896a0672ac&pf_rd_r=AMX9RB00XBBHJ57KYYF4&pf_rd_s=merchandised-search-19&pf_rd_t=101&qid=1675342817&refinements=p_85%3A10440599031%2Cp_89%3AOnePlus&rps=1&s=electronics&sr=1-1&th=1"><img src="img/p8.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">OnePlus Bullets Z2 Bluetooth Wireless Earphones</h2>
+                <span class="price">$1700</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 9 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Apple-Watch-GPS-44mm-Aluminium/dp/B09G9HTYVV/ref=lp_29561454031_1_1"><img src="img/p9.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Apple Watch SE (GPS, 44mm) - Space Grey Aluminium Case with Midnight Sport Band</h2>
+                <span class="price">$25459</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 10 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Noise-Bluetooth-Calling-Tracking-Detection/dp/B0B5LVS732/ref=lp_29561419031_1_2"><img src="img/p10.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Noise Pulse Go Buzz Bluetooth Calling Smart Watch</h2>
+                <span class="price">$1700</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 11 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Logitech-B170-Wireless-Mouse-Black/dp/B01J0XWYKQ/ref=lp_1375248031_1_1"><img src="img/p11.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Logitech B170 Wireless Mouse, 2.4 GHz with USB Nano Receiver</h2>
+                <span class="price">$559</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 12 -->
+            <div class="product-box">
+                <a href="https://www.ajio.com/bullmer-pack-of-3-graphic-print-crew-neck-t-shirts/p/461340286_multi"><img src="img/p12.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">BULLMER
+                    Pack of 3 Graphic Print Crew-Neck T-shirts</h2>
+                <span class="price">$1499</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 13 -->
+            <div class="product-box">
+                <a href="https://www.ajio.com/ausk-turtle-neck-t-shirt-with-full-sleeves/p/465365942_black"><img src="img/p13.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">AUSK
+                    Turtle-Neck T-Shirt with Full Sleeves</h2>
+                <span class="price">$1499</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 14 -->
+            <div class="product-box">
+                <a href="https://www.ajio.com/tommy-hilfiger-tomm-men-shirts-navy-s/p/469244483_navy"><img src="img/p14.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">TOMMY HILFIGER
+                    Tomm men shirtsL</h2>
+                <span class="price">$2219</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 15 -->
+            <div class="product-box">
+                <a href="https://www.ajio.com/wildhorn-wh419b-genuine-leather-bi-fold-wallet/p/460889878_black"><img src="img/p15.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">WILDHORN
+                    WH419B Genuine Leather Bi-Fold Wallet</h2>
+                <span class="price">$359</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 16 -->
+            <div class="product-box">
+                <a href="https://www.ajio.com/puma-storm-origin-lace-up-casual-shoes/p/460771114_black"><img src="img/p16.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">PUMA
+                    Storm Origin Lace-Up Casual Shoes</h2>
+                <span class="price">$3569</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 17 -->
+            <div class="product-box">
+                <a href="https://www.ajio.com/u-s-polo-assn-lightly-washed-skinny-jeans/p/469279428_black"><img src="img/p17.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">U.S. POLO ASSN.
+                    Lightly Washed Skinny Jeans</h2>
+                <span class="price">$1050</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 18 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/daevish-women-maxi-blue-dress/p/itmea2ccc567d5af?pid=DREG8ZFGXHUJF8VM&lid=LSTDREG8ZFGXHUJF8VMXAXNB9&marketplace=FLIPKART&store=clo%2Fodx%2Fmaj%2Fjhy&spotlightTagId=BestsellerId_clo%2Fodx%2Fmaj%2Fjhy&srno=b_1_3&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BWestern~Women%2BDresses_4XBLC9R100Y6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&fm=organic&iid=2d8f16ff-619b-408c-9716-249e56da4038.DREG8ZFGXHUJF8VM.SEARCH&ppt=browse&ppn=browse&ssid=swhbwgop280000001675356112779"><img src="img/p18.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Women Maxi Blue Dress</h2>
+                <span class="price">$459</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 19 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/sheetal-associates-women-wrap-pink-dress/p/itmde841fb7c1f91?pid=DREGACDFHNXP36XX&lid=LSTDREGACDFHNXP36XXEANDXF&marketplace=FLIPKART&store=clo%2Fodx%2Fmaj%2Fjhy&srno=b_1_18&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BWestern~Women%2BDresses_4XBLC9R100Y6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&fm=organic&iid=2d8f16ff-619b-408c-9716-249e56da4038.DREGACDFHNXP36XX.SEARCH&ppt=browse&ppn=browse"><img src="img/p19.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Women Wrap Pink Dress</h2>
+                <span class="price">$379</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 20 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/vasant-apparel-women-embroidered-anarkali-kurta/p/itmf6b97b29b9463?pid=KTAFYZDBEGKTNDFH&lid=LSTKTAFYZDBEGKTNDFH2PROQX&marketplace=FLIPKART&q=kurtas+kurtis&store=clo%2Fcfv%2Fcib%2Frkt&spotlightTagId=BestsellerId_clo%2Fcfv%2Fcib%2Frkt&srno=s_1_10&otracker=search&fm=organic&iid=03fce78f-b0d7-48df-8c1d-925aee293539.KTAFYZDBEGKTNDFH.SEARCH&ppt=browse&ppn=browse&ssid=9jf9won7y80000001675356555960&qH=5985e3313e9e348f"><img src="img/p20.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Women Embroidered Viscose Rayon Anarkali Kurta</h2>
+                <span class="price">$370</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 21 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/popwings-casual-short-sleeve-solid-women-black-top/p/itmaac304dfbe565?pid=TOPGYS8BRFHJJQGE&lid=LSTTOPGYS8BRFHJJQGEA5N4BS&marketplace=FLIPKART&store=clo%2Fash&srno=b_1_6&otracker=browse&fm=organic&iid=7aa15f21-4dd5-4f40-9a76-b9be06142477.TOPGYS8BRFHJJQGE.SEARCH&ppt=browse&ppn=browse&ssid=1z3vuw8clc0000001675356787479"><img src="img/p21.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Casual Regular Sleeves Solid Women Black Top</h2>
+                <span class="price">$299</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 22 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/picktoes-women-pink-heels/p/itm0707d0abb900a?pid=SNDFTN76ZFYGGAYA&lid=LSTSNDFTN76ZFYGGAYAIDICM1&marketplace=FLIPKART&store=osp%2Fiko%2F6q1&srno=b_1_10&otracker=nmenu_sub_Women_0_Heels&fm=organic&iid=9fac5a8d-7603-48d6-af75-1364e0156a2d.SNDFTN76ZFYGGAYA.SEARCH&ppt=browse&ppn=browse&ssid=9qeomr3kf40000001675357017976"><img src="img/p22.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Women Pink Heels Sandal</h2>
+                <span class="price">$399</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 23 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/shozie-women-sneakers-casual-shoes/p/itmcbb4627ca1ab8?pid=SHOGGQAW5HNZZFBM&lid=LSTSHOGGQAW5HNZZFBMU3Q2EA&marketplace=FLIPKART&store=osp%2Fiko%2Fsx7&srno=b_1_6&otracker=nmenu_sub_Women_0_Casual%20Shoes&fm=organic&iid=544041dd-f894-4e33-be08-476cad10e5f2.SHOGGQAW5HNZZFBM.SEARCH&ppt=browse&ppn=browse&ssid=rryqy9wsj40000001675357205678"><img src="img/p23.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Women Sneakers Casual Shoes Sneakers For Women </h2>
+                <span class="price">$388</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 24 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/philips-hp8100-46-hair-dryer/p/itmfhbrgkk38zkfz?pid=HDRDW3SEFGZ6BCTG&lid=LSTHDRDW3SEFGZ6BCTGSMUTVI&marketplace=FLIPKART&store=zlw%2F79s%2Fmh8&spotlightTagId=BestsellerId_zlw%2F79s%2Fmh8&srno=b_1_3&otracker=nmenu_sub_Women_0_Hair%20Dryers&fm=organic&iid=ce29aab0-f2d6-4035-975a-187fbd1a5ffb.HDRDW3SEFGZ6BCTG.SEARCH&ppt=browse&ppn=browse&ssid=wb9lrefp340000001675357303720"><img src="img/p24.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">PHILIPS HP8100/46 Hair Dryer</h2>
+                <span class="price">$698</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart hover'></i>
+            </div>
+            <!-- box 25 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/philips-hp8302-06-hair-straightener/p/itmf51277d7653cd?pid=HSTE4YPPY43YAXJZ&lid=LSTHSTE4YPPY43YAXJZNCZAJ9&marketplace=FLIPKART&store=zlw%2F79s%2Fdk5&spotlightTagId=BestsellerId_zlw%2F79s%2Fdk5&srno=b_1_4&otracker=nmenu_sub_Women_0_Hair%20Straightners&fm=organic&iid=871a9547-f928-4dc5-b006-4cd77d7b1cc4.HSTE4YPPY43YAXJZ.SEARCH&ppt=browse&ppn=browse&ssid=mka50i5ok00000001675357481082"><img src="img/p25.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">PHILIPS HP8302/06 Hair Straightener</h2>
+                <span class="price">$1099</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 26 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/maybelline-new-york-baby-lips-pink-lolita-cherry-kiss/p/itm80871ab3802e4?pid=LPBFUHXEDCGHGGWC&lid=LSTLPBFUHXEDCGHGGWCTCPRI4&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=ce88da97-56a1-4302-9425-248c54b24276.LPBFUHXEDCGHGGWC.SEARCH&ppt=browse&ppn=browse"><img src="img/p26.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">MAYBELLINE NEW YORK Baby Lips Pink Lolita & Baby Lips Cherry Kiss Pink Lolita & Cherry Kiss</h2>
+                <span class="price">$206</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 27 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/lakm-ananyas-eyeconicmakeupkit/p/itm5ef9e9b776355?pid=KJLGFT2FU39XVZMZ&lid=LSTKJLGFT2FU39XVZMZMTUKJA&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_20&otracker=browse&fm=organic&iid=en_28StK7vV3njruX6RP26fqKdhqeK7U3P%2FgBUTEqNminRbam73HrdEO2xUrDt6TTufVZw5uyzNAlqK%2FPJVK7IU5w%3D%3D&ppt=browse&ppn=browse"><img src="img/p27.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Lakmé Ananya's Eyeconic Makeup Kit  (Kajal, Liquid Eyeliner, Curling Mascara, 15 g)</h2>
+                <span class="price">$655</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 28 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/myki-king-queen-valentine-adjustable-couple-rings-sterling-silver-plated-ring-set/p/itmf48m2xfgarjup?pid=RNGF48GKJ3CDFAFX&lid=LSTRNGF48GKJ3CDFAFXY0UKGG&marketplace=FLIPKART&store=mcr%2Ftfz&srno=b_1_10&otracker=nmenu_sub_Women_0_Silver%20Jewellery&fm=organic&iid=5ff113e4-983f-4525-aee2-55334cad1fb9.RNGF48GKJ3CDFAFX.SEARCH&ppt=browse&ppn=browse&ssid=8o6cm8zydc0000001675357872494"><img src="img/p28.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">King & Queen Valentine Adjustable Couple Rings Sterling Silver Silver Plated Ring Set</h2>
+                <span class="price">$337</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 29 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/r-enterprises-alloy-tassel-earring/p/itm521ed40577b18?pid=JWSG4DYPAGFFUCGF&lid=LSTJWSG4DYPAGFFUCGFA2GV77&marketplace=FLIPKART&store=mcr%2F96v%2Fyx2&srno=b_1_3&otracker=browse&fm=organic&iid=e0071425-b02f-40e9-89db-f699907ab436.JWSG4DYPAGFFUCGF.SEARCH&ppt=clp&ppn=fashion-jewellery-store&ssid=i802cob8ao0000001675358004297"><img src="img/p29.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Alloy Rhodium Jewel Set</h2>
+                <span class="price">$335</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 30 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/myki-fascinating-butterfly-bali-pearl-drop-earrings-women-girl-s-cubic-zirconia-sterling-silver-drops-danglers/p/itm99515c791d563?pid=ERGFWZYAGQNKCRZE&lid=LSTERGFWZYAGQNKCRZEKUISBC&marketplace=FLIPKART&store=mcr%2Ftfz&srno=b_1_22&otracker=nmenu_sub_Women_0_Silver%20Jewellery&fm=organic&iid=5ff113e4-983f-4525-aee2-55334cad1fb9.ERGFWZYAGQNKCRZE.SEARCH&ppt=browse&ppn=browse"><img src="img/p30.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Fascinating butterfly Bali Pearl Drop Earrings for Women and Girl's Cubic Zirconia Sterling Silver Drops & Danglers</h2>
+                <span class="price">$325</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 31 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/exotic-grey-sling-bag-slbg-133/p/itmdb992e777acf4?pid=SLBGFZM6HAHRZ5R6&lid=LSTSLBGFZM6HAHRZ5R6CXR1EA&marketplace=FLIPKART&store=reh%2Fihu%2Fmf2&srno=b_1_2&otracker=browse&fm=organic&iid=en_9zmuZvXLX0CiAHFGym6HlAzwZPVK%2FiGp7F4T7fedN46ob3zRY4v4enUsCgf3IPwZ26MuMnL6JD0quasH%2B5d1RA%3D%3D&ppt=browse&ppn=browse&ssid=xa8d1cvtjk0000001675358406475"><img src="img/p31.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Grey Women Sling Bag</h2>
+                <span class="price">$599</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 32 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/yessbenza-casual-tan-clutch/p/itmd7dc366972f82?pid=CLTFZ9CH3DTMD4AY&lid=LSTCLTFZ9CH3DTMD4AYV4ZRIJ&marketplace=FLIPKART&store=reh%2Fcca%2Fq6i&srno=b_1_11&otracker=browse&fm=organic&iid=2539a4d7-4272-425a-95f2-e0e4285601a6.CLTFZ9CH3DTMD4AY.SEARCH&ppt=browse&ppn=browse&ssid=m83ffm2lw00000001675358505134"><img src="img/p32.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Casual Tan Clutch - Regular Size</h2>
+                <span class="price">$439</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 33 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/god-bless-women-fit-flare-pink-dress/p/itmca41c2b4f63d8?pid=DREFUSHFRDMDFWZK&lid=LSTDREFUSHFRDMDFWZKYCHJFV&marketplace=FLIPKART&store=clo%2Fodx%2Fmaj%2Fjhy&srno=b_1_31&otracker=browse&fm=organic&iid=44e9f891-4fb8-492d-85e2-a9f79e22824c.DREFUSHFRDMDFWZK.SEARCH&ppt=browse&ppn=browse&ssid=2827qmmdg00000001675424145152"><img src="img/p33.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Women Fit and Flare Pink Dress</h2>
+                <span class="price">$467</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 34 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/FUNDAY-FASHION-Sleeve-Womens-Jacket/dp/B08T1GJLHF/ref=sr_1_12?pd_rd_r=2aff7051-7089-4af5-8d0e-c150b71be305&pd_rd_w=RjLVd&pd_rd_wg=rnVy2&pf_rd_p=dfc97102-6830-4f2f-88bc-368fff17fba4&pf_rd_r=PYF6S91MGMDX8E9BHETD&qid=1675424307&refinements=p_n_specials_match%3A21618256031%2Cp_85%3A10440599031%2Cp_n_feature_nineteen_browse-bin%3A11301357031&rnid=11301356031&rps=1&s=apparel&sr=1-12"><img src="img/p34.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">FUNDAY FASHION Full Sleeve Blue Solid Women's Denim Jacket</h2>
+                <span class="price">$349</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 35 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/rarebeauty-embellished-banarasi-lycra-blend-saree/p/itmc576b961dd20f?pid=SARGDGCSTVC8D2PY&lid=LSTSARGDGCSTVC8D2PYUJZGUW&marketplace=FLIPKART&store=clo&spotlightTagId=BestsellerId_clo&srno=b_1_18&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BEthnic_HQXTE43PO8HC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L1_view-all&fm=organic&iid=e97b8b2b-a251-410a-a43b-275875dd5548.SARGDGCSTVC8D2PY.SEARCH&ppt=browse&ppn=browse&ssid=jumg0hoyyo0000001675424288347"><img src="img/p35.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Embellished Banarasi Lycra Blend Saree</h2>
+                <span class="price">$287</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 36 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/lakm-absolute-perfect-radiance-skin-brightening-day-creme/p/itm9167b98e87233?pid=MSCFQFYHPYC6GRYW&lid=LSTMSCFQFYHPYC6GRYWXMJ8LU&marketplace=FLIPKART&store=g9b%2Fema%2F5la&srno=b_1_13&otracker=browse&fm=organic&iid=7d976cd9-1a1c-49ce-a286-d1dd190e7341.MSCFQFYHPYC6GRYW.SEARCH&ppt=browse&ppn=browse&ssid=emgckngj0w0000001675424495523"><img src="img/p36.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Lakmé Absolute Perfect Radiance Skin Brightening Day Creme</h2>
+                <span class="price">$226</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 37 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/HP-Pavilion-Windows-Graphics-15-ec2146AX/dp/B09MF6F4GH/ref=sr_1_2?crid=3H01DKCE6OFEN&keywords=laptops&qid=1675424689&refinements=p_89%3ADell%7CHP%2Cp_36%3A7252032031%2Cp_n_feature_thirteen_browse-bin%3A12598163031%7C16757431031&rnid=12598141031&s=computers&sprefix=lapto%2Caps%2C486&sr=1-2"><img src="img/p37.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">HP Pavilion AMD Ryzen 7 5800H 15.6 inches(39.6cm) FHD Gaming Laptop (16GB/512GB)</h2>
+                <span class="price">$73829</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 38 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Alienware-i7-12700H-400nits-Advanced-D569938WIN9/dp/B09WY13QB3/ref=sr_1_5?crid=3H01DKCE6OFEN&keywords=laptops&qid=1675424689&refinements=p_89%3ADell%7CHP%2Cp_36%3A7252032031%2Cp_n_feature_thirteen_browse-bin%3A12598163031%7C16757431031&rnid=12598141031&s=computers&sprefix=lapto%2Caps%2C486&sr=1-5"><img src="img/p38.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Dell Alienware x14 Gaming Laptop,Intel i7-12700H Windows 11,14"(35.5cm) FHD 144Hz 400nits GSYNC+Advanced Optimus,16GB DDR5,512GB</h2>
+                <span class="price">$169990</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 39 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/HP-Processor-16-1-inch-Graphics-16-e0361ax/dp/B09RX3NP7H/ref=sr_1_8?crid=3H01DKCE6OFEN&keywords=laptops&qid=1675424689&refinements=p_89%3ADell%7CHP%2Cp_36%3A7252032031%2Cp_n_feature_thirteen_browse-bin%3A12598163031%7C16757431031&rnid=12598141031&s=computers&sprefix=lapto%2Caps%2C486&sr=1-8"><img src="img/p39.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">HP Victus Gaming Latest AMD Ryzen 7 5800H Processor 16.1-inch(40.9 cm) FHD Gaming Laptop (16GB RAM/512GB </h2>
+                <span class="price">$104490</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 40 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Portronics-POR-704-Adjustable-Laptop-Table/dp/B00BQT6LAW/ref=sr_1_7?content-id=amzn1.sym.c16802f7-e9f2-4a7a-ace2-b13748bc8783%3Aamzn1.sym.c16802f7-e9f2-4a7a-ace2-b13748bc8783&keywords=laptop+stand+for+bed&pd_rd_r=f6dc86a2-4b84-429c-8fbf-db690e225a61&pd_rd_w=TYkCf&pd_rd_wg=Nii7w&pf_rd_p=c16802f7-e9f2-4a7a-ace2-b13748bc8783&pf_rd_r=QRTPZYVT9CWTQQNB576M&qid=1675425027&sr=8-7"><img src="img/p40.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Portronics My Buddy Plus Adjustable/Portable/Foldable Multipurpose Laptop Table with Cooling Fan</h2>
+                <span class="price">$1849</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 41 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Sleepyhead-SofaBed-Foldable-Washable-Zipper/dp/B089W6Z7FT/ref=sr_1_2?qid=1675429822&refinements=p_89%3ASleepyhead&rnid=3837712031&s=kitchen&sr=1-2"><img src="img/p41.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Sleepyhead Sofabed One - Foldable Sofa Cum Bed</h2>
+                <span class="price">$14249</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 42 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Green-Soul-Monster-Ultimate-Multi-Functional/dp/B085NPF8BK/ref=lp_22431505031_1_1"><img src="img/p42.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Green Soul Monster Ultimate Series T Multi-Functional Ergonomic Chair with Premium Spandex</h2>
+                <span class="price">$18700</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 43 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Solimo-Single-Seater-Recliner-Brown/dp/B07FKKDPC4/ref=sr_1_4?_encoding=UTF8&pf_rd_i=5689464031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=2467b8bc-5820-44cd-b79d-11b69cdd79aa&pf_rd_r=834BEXKAFNBXFB2AE9SA&pf_rd_s=center-1&pf_rd_t=101&qid=1675430104&refinements=p_36%3A900000-99999999&s=home-furnishings&sr=1-4"><img src="img/p43.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Amazon Brand - Solimo Musca Fabric Single Seater Recliner</h2>
+                <span class="price">$12999</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 44 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Amazon-Brand-Solimo-Nigella-Fabric/dp/B08HDR4R7B/ref=lp_30764121031_1_3"><img src="img/p44.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Amazon Brand - Solimo Nigella Fabric 3 Seater Sofa</h2>
+                <span class="price">$12899</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 45 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Mamta-Decoration-Sheesham-Wooden-Chestnut/dp/B07DL3YJ3F/ref=sr_1_4?pf_rd_i=5689415031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=0b49aba8-9842-43f2-9dc9-3e78d61049e7&pf_rd_r=29EB1SKHW74X6TF0BEJ3&pf_rd_s=merchandised-search-5&pf_rd_t=101&qid=1675430398&refinements=p_n_feature_seven_browse-bin%3A5785184031&rnid=5785178031&s=kitchen&sr=1-4"><img src="img/p45.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Mamta Decoration Sheesham Wood 8 Seater Dining Table Set with 8 Cushioned Chair for Living Room</h2>
+                <span class="price">$38994</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 46 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Porash-Furniture-Sheesham-Wooden-Chestnut/dp/B08L855DMG/ref=sr_1_7?pf_rd_i=5689415031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=0b49aba8-9842-43f2-9dc9-3e78d61049e7&pf_rd_r=29EB1SKHW74X6TF0BEJ3&pf_rd_s=merchandised-search-5&pf_rd_t=101&qid=1675430485&refinements=p_n_feature_seven_browse-bin%3A5785182031&rnid=5785178031&s=kitchen&sr=1-7"><img src="img/p46.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Porash Furniture™ Sheesham Wood Wooden Dining Set 4 Seater | Dining Table Set with 4 Chairs (Warm Chestnut Finish)</h2>
+                <span class="price">$16171</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 47 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Kurtzy-Storage-Display-Cabinet-Organizer/dp/B07NDYWHNX/ref=lp_5689446031_1_3"><img src="img/p47.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Kurtzy Open Book Shelf DIY Book Storage Display Rack - Wooden Multipurpose Book Storage </h2>
+                <span class="price">$3899</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 48 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Colorish-Mandala-Printed-Jaipuri-Bedsheet/dp/B09V34QFNN/ref=sr_1_8?pd_rd_r=ec5b0c0f-8daf-482a-ba5e-19e6334725d2&pd_rd_w=9F8Qn&pd_rd_wg=fO1T1&pf_rd_p=fa707401-a846-4a51-bc4e-53496eb1c2e2&pf_rd_r=VGJ2YEJPJHW8Q69ZT5FS&qid=1675430803&refinements=p_n_format_browse-bin%3A19560802031&s=kitchen&sr=1-8"><img src="img/p48.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Colorish 120 TC Cotton Blend Mandala Printed Jaipuri Bedsheet for Double Bed King Size with 2 Pillow Covers</h2>
+                <span class="price">$499</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 49 -->
+            <div class="product-box">
+                <a href="https://www.amazon.in/Amazon-Brand-Solimo-Cotton-Paisley/dp/B06X3R35DM/ref=sr_1_11?pd_rd_r=ec5b0c0f-8daf-482a-ba5e-19e6334725d2&pd_rd_w=9F8Qn&pd_rd_wg=fO1T1&pf_rd_p=fa707401-a846-4a51-bc4e-53496eb1c2e2&pf_rd_r=VGJ2YEJPJHW8Q69ZT5FS&qid=1675430803&refinements=p_n_format_browse-bin%3A19560802031&s=kitchen&sr=1-11"><img src="img/p49.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Amazon Brand - Solimo 100% Cotton Padded Oven Gloves, Paisley</h2>
+                <span class="price">$319</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 50 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/lg-139-cm-55-inch-oled-ultra-hd-4k-smart-webos-tv/p/itm18fef70347d7f?pid=TVSGFGYSJBXVKU3V&lid=LSTTVSGFGYSJBXVKU3VNPGUWP&otracker=clp_banner_1_7.bannerX3.BANNER_televisions-big-bachat-dhamaal-sale-store_494Z5AQ10S94&fm=neo%2Fmerchandising&iid=M_984426d5-4cd6-4550-9181-c345bb95a8ec_7.494Z5AQ10S94&ppt=clp&ppn=tvs-and-appliances-new-clp-store&ssid=60l160steo0000001675431109971"><img src="img/p50.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">LG 139 cm (55 inch) OLED Ultra HD (4K) Smart WebOS TV</h2>
+                <span class="price">$104990</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 51 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/sony-bravia-125-7-cm-50-inch-ultra-hd-4k-led-smart-google-tv/p/itm48f9720d6a7b6?pid=TVSGEYBHF3NW5TY9&lid=LSTTVSGEYBHF3NW5TY91P5QOT&otracker=clp_banner_2_6.bannerX3.BANNER_televisions-big-bachat-dhamaal-sale-store_UTY67KZ4G1M8&fm=neo%2Fmerchandising&iid=M_799dfa0e-bf8b-41e7-b959-9709d22f5244_6.UTY67KZ4G1M8&ppt=clp&ppn=tvs-and-appliances-new-clp-store&ssid=d76cg58mao0000001675431263040"><img src="img/p51.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">SONY Bravia 125.7 cm (50 inch) Ultra HD (4K) LED Smart Google TV </h2>
+                <span class="price">$53999</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 52 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/ifb-8-kg-5-star-2x-power-steam-hard-water-wash-fully-automatic-front-load-in-built-heater-white/p/itm19ba863e16ece?pid=WMNGDMYHFGUNZPTF&lid=LSTWMNGDMYHFGUNZPTFGSCTVW&otracker=clp_banner_2_6.bannerX3.BANNER_tvs-and-appliances-new-clp-store_188XC4GI78RT&fm=neo%2Fmerchandising&iid=M_dacc082e-fdde-4f78-a734-00210f0c59f5_6.188XC4GI78RT&ppt=clp&ppn=tvs-and-appliances-new-clp-store&ssid=ehd358uowg0000001675431524191"><img src="img/p52.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">IFB 8 kg 5 Star 2X Power Steam,Hard Water Wash Fully Automatic Front Load with In-built Heater White </h2>
+                <span class="price">$33490</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 53 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/samsung-189-l-direct-cool-single-door-5-star-refrigerator-base-drawer-digital-inverter/p/itmcc8135cdf2bc2?pid=RFRGHJPXNJ2GHN8V&lid=LSTRFRGHJPXNJ2GHN8VR0LYT9&otracker=clp_banner_1_7.bannerX3.BANNER_tvs-and-appliances-new-clp-store_BTEESSC38LQ8&fm=neo%2Fmerchandising&iid=M_b0bfaa7a-878f-446f-b83b-537658c5de3f_7.BTEESSC38LQ8&ppt=clp&ppn=tvs-and-appliances-new-clp-store&ssid=ehd358uowg0000001675431524191"><img src="img/p53.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">SAMSUNG 189 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer with Digital Inverter</h2>
+                <span class="price">$17990</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 54 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/whirlpool-4-1-convertible-cooling-ton-3-star-split-inverter-ac-white/p/itmd81c1e4c3cb18?pid=ACNGBKQRNH2R8TJB&lid=LSTACNGBKQRNH2R8TJBBLSGML&marketplace=FLIPKART&store=j9e%2Fabm%2Fc54&srno=b_1_2&otracker=clp_banner_2_41.bannerX3.BANNER_tvs-and-appliances-new-clp-store_0GT6LZ4HXYI3&fm=neo%2Fmerchandising&iid=ff4091ce-251f-4f2d-ba7e-64bbd90c6128.ACNGBKQRNH2R8TJB.SEARCH&ppt=clp&ppn=tvs-and-appliances-new-clp-store&ssid=mvwimzquhs0000001675431791103"><img src="img/p54.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Whirlpool 4 in 1 Convertible Cooling 1 Ton 3 Star Split Inverter AC </h2>
+                <span class="price">$23999</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 55 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/eureka-forbes-quick-clean-dx-dry-vacuum-cleaner-reusable-dust-bag/p/itm8c01cff3347cb?pid=VCLD4NTM3SPYBJSJ&lid=LSTVCLD4NTM3SPYBJSJGZDOBY&marketplace=FLIPKART&store=j9e%2Fabm%2Ful2&srno=b_1_7&otracker=nmenu_sub_Appliances_0_Vacuum%20Cleaners&fm=neo%2Fmerchandising&iid=5b9773d6-4c00-4b58-915d-58775dfe55c1.VCLD4NTM3SPYBJSJ.SEARCH&ppt=browse&ppn=browse&ssid=rggba323280000001675431965385"><img src="img/p55.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">EUREKA FORBES Quick Clean DX Dry Vacuum Cleaner with Reusable Dust Bag</h2>
+                <span class="price">$3299</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 56 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/aquagrand-skyland-18-ltr-ro-uv-uf-tds-water-purifier-l/p/itm9deac384213d9?pid=WAPFT5AGGPGJMU7Z&lid=LSTWAPFT5AGGPGJMU7ZZFJDWO&marketplace=FLIPKART&store=j9e%2Fabm%2Fi45&spotlightTagId=BestsellerId_j9e%2Fabm%2Fi45&srno=b_1_2&otracker=nmenu_sub_Appliances_0_Water%20Purifiers&fm=neo%2Fmerchandising&iid=2db4c8e0-48fc-4db3-bd7b-fa7d3474a91e.WAPFT5AGGPGJMU7Z.SEARCH&ppt=browse&ppn=browse&ssid=9gekmgnxvk0000001675432077237"><img src="img/p56.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Aquagrand SkyLand 18 Ltr RO + UV + UF + TDS Water Purifier 18 L RO + UV + UF + TDS Water Purifier</h2>
+                <span class="price">$4655</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 57 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/jeevan-chandelier-ceiling-lamp/p/itm200bb0b1c3ba1?pid=CILG5AD6CEHXNDNH&lid=LSTCILG5AD6CEHXNDNHMGOQ1V&marketplace=FLIPKART&store=jhg%2F6w8%2Frws&srno=b_1_1&otracker=nmenu_sub_Home%20%26%20Furniture_0_Ceiling%20Lamp&fm=organic&iid=en_4E1pIF4%2FGjd6Dk4ADdZ36RyfTTMDQpnKTqZlaMTE2%2F8tofwxRIvzsN%2BBaph1LlerZjqX%2BuI01CwN%2BConnKPM%2BQ%3D%3D&ppt=browse&ppn=browse&ssid=njjf5uw7800000001675432265537"><img src="img/p57.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Jeevan Chandelier Ceiling Lamp </h2>
+                <span class="price">$1249</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 58 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/united-cogs-analog-30-cm-x-wall-clock/p/itmfc2aseejwbkdz?pid=WCKFCFRFRXVG64WS&lid=LSTWCKFCFRFRXVG64WSZRYYUU&marketplace=FLIPKART&store=arb%2Fkjw&srno=b_1_20&otracker=browse&fm=organic&iid=en_fiJhFC5l%2FND6XxyLQLheRtBxZHZS%2BPZD929B2m%2BmhFeYJBPot%2FM23cF5g4F1xGa2t2K6h%2BB5PwJo8odbdVvX9g%3D%3D&ppt=browse&ppn=browse&ssid=xyf1yyxhe80000001675432362931"><img src="img/p58.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">United cogs Analog 30 cm X 30 cm Wall Clock</h2>
+                <span class="price">$593</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 59 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/flipkart-smartbuy-wall-stickers-wallpaper-3d-frames-tree-brown-office-wardrobe-design-self-adhesive-500-cm-sticker/p/itmc2e56a1828fcc?pid=STIGYN7UMFVFBQUP&lid=LSTSTIGYN7UMFVFBQUPYAHD3J&marketplace=FLIPKART&store=arb%2Fyod%2Fsi0&srno=b_1_10&otracker=browse&fm=organic&iid=39fafa4f-9d05-4cf2-b4af-b7da16a50c81.STIGYN7UMFVFBQUP.SEARCH&ppt=browse&ppn=browse&ssid=ygmuz101mo0000001675432499480"><img src="img/p59.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">Flipkart SmartBuy Wall Stickers Wallpaper 3D Frames</h2>
+                <span class="price">$189</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <!-- box 60 -->
+            <div class="product-box">
+                <a href="https://www.flipkart.com/saf-6mm-mdf-hexagon-floral-digital-reprint-10-39-inch-x-12-painting/p/itm0e449213e5bdc?pid=PTGFKZAW72ZZY2SM&lid=LSTPTGFKZAW72ZZY2SM193FRM&marketplace=FLIPKART&store=arb%2Fbga%2Fmmf&srno=b_1_16&otracker=nmenu_sub_Home%20%26%20Furniture_0_Paintings&fm=organic&iid=776be8e2-5893-45ae-a9ad-51858faf4689.PTGFKZAW72ZZY2SM.SEARCH&ppt=browse&ppn=browse&ssid=wexdxc9dn40000001675432610035"><img src="img/p60.jpg" alt="" class="product-img"></a>
+                <h2 class="product-title">saf 6MM MDF HEXAGON FLORAL Digital Reprint</h2>
+                <span class="price">$160</span>
+                <i title="Add to cart" class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <!-- link to js -->
+    <script src="main.js"></script>
+
+</body>
+</html>
